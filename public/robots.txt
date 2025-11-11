@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /posts/image/
+Disallow: /posts
+Disallow: /gallery

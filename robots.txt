@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: /
+
+# Block access to a specific directory (e.g., images)
+User-agent: *
+Disallow: /images/
+
+# Block a specific file (e.g., a sensitive file)
+User-agent: *
+Disallow: /private_file.html
+
+# Allow Googlebot but disallow others
+User-agent: Googlebot
+Disallow: /private/
+
+User-agent: *
+Disallow: /no-index/
+
+# Block a particular crawler (e.g., Bingbot)
+User-agent: Bingbot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
